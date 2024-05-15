@@ -18,8 +18,9 @@ const db_config = {
   port: 3306,
 };
 
-const port = process.env.PORT || 5001;
-http.listen(port, () => {
+// const port = process.env.PORT || 5001;
+
+http.listen(80, () => {
   console.log(`Server is listening on port ${port}`);
 })
 
